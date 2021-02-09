@@ -333,7 +333,7 @@ Tools/quabs-git/release/quabs: Tools/quabs-git
 	cd Tools/quabs-git/release ; cmake -DCMAKE_BUILD_TYPE=Release .. && make
 
 Tools/quabs-git: Tools/.f
-	cd Tools ; git clone --recurse-submodules https://github.com/reactive-systems/quabs.git quabs-git
+	cd Tools ; git clone --recurse-submodules https://github.com/ltentrup/quabs.git quabs-git
 
 # rareqs
 Tools/rareqs: Tools/rareqs-1.1
